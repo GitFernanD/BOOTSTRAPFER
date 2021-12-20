@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="css/estilos.css">
+
+<title class="bg-danger">Practica de Bootstrap</title>
+</head>
+<body>
+
+    <div class="container"> <!--dentro del container tenemos que organizar todo en filas-->
+        <header class="p-5 bg-dark text-white text-center">
+            <h1 class="display-7">PAGINA DE EJEMPLOS DE BOOSTSRAP</h1></header>
+
+            <!--navegation menú-->
+            <nav class="navbar navbar-expand-sm
+            bg-dark navbar-dark">
+                <div class="container-fluid">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link active" href="index.html">Inicio |</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="contacto.html">Contacto |</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="acercade.html">Acerca de... |</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="Extras.html">Extras</a>
+                    </li>
+                  </ul>
+                </div>
+            </nav>
+    </header>
+    
+        <div class="row m-1">
+            <div class="col bg-primary p-2">.col</div>
+            <div class="col bg-info p-2">.col</div>
+            <div class="col bg-primary p-2">.col</div>
+        </div>
+      
+        <div class="row m-1">
+            <div class="col-sm-4 bg-danger p-2">.col-sm-4</div>
+            <div class="col-sm-2 bg-success p-2">.col-sm-2</div>
+            <div class="col-sm-4 bg-danger p-2">.col-sm-4</div>
+            <div class="col-sm-2 bg-success p-2">.col-sm-2</div>
+        </div>
+        <div class="row m-1">
+            <div class="col-md-8 bg-warning p-2">.col-md</div>
+            <div class="col-md-4 bg-dark text-white p-2">.col-md</div>
+        </div>
+        <div class="row m-1 bg-info">
+          <h1 class="text-center">Encabzado grande</h1>
+          <h6 class="text-end">Encabzado pequeño</h6>
+        </div>
+        <div class="row bg-dark text-white m-1">
+            <h1 class=" text-center">Encabzado display</h1>
+            <h6 class=" text-center display-5">Encabezado display más pequeño</h6>
+        </div>
+        <div class="row bg-primary text-white p-3 m-1">
+           <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar </mark>  de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.</p> 
+        </div>
+        <div class="row">
+            <blockquote class="blockquote">
+                Winter is coming
+            </blockquote>
+        </div>
+        <div class="row">
+          <p><code> blockquote</code> es un código. <code>class</code> también.</p>
+          <p>Pulsa <kbd>ctl-z</kbd> si quieres deshacer ña última acción</p>
+        </div>
+        <table class="table table-dark table-hover m-1">
+            <tr class="bg-info"><th>Animales</th><th>Hombres</th><th>Mujeres</th></tr>
+            <tr><td>Perros</td><td>6</td><td>1</td></tr>
+            <tr><td>Gatos</td><td>4</td><td>1</td></tr>
+            <tr><td>Otros</td><td>3</td><td>1</td></tr>
+        </table>
+        <div class="mt-4 p-5 bg-dark text-white m-1 ">
+            <h1>Jumbotron de palo </h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque mollis sit amet velit quis aliquam. Vestibulum elementum volutpat ipsum, eget hendrerit nibh luctus vel. Curabitur interdum sem ac purus hendrerit luctus sed et enim. Nunc sollicitudin libero sed dolor tristique pretium. In sed sem commodo urna consectetur egestas. Morbi accumsan, enim quis facilisis dignissim, tortor enim placerat ex, ut hendrerit massa enim sit amet felis. Integer dictum urna sit amet nunc tempus, a porta quam hendrerit. Suspendisse fringilla viverra metus, sed dignissim turpis sagittis fringilla. Proin euismod consequat dolor, vitae porta mauris pharetra ut. Ut vel justo euismod, sollicitudin mi at, accumsan lorem. Pellentesque varius purus aliquet lacinia egestas.</p>
+        </div class=" p-2">
+       <img src="img/newyork.jpg" alt="New York" class="rounded-circle float-start ">
+       <img src="img/paris.jpg" alt="Paris"class="rounded-circle float-end">
+       <img src="img/sanfran.jpg" alt="San Francisco" class="rounded-circle mx-auto d-block">
+       <div class="row">
+        <button type="button" class="col m-1 btn">Basic</button>
+        <button type="button" class="col m-1 btn btn-primary">Primary</button>
+        <button type="button" class="col m-1 btn btn-secondary">Secondary</button>
+        <button type="button" class="col m-1 btn btn-success">Success</button>
+        <button type="button" class="col m-1 btn btn-info">Info</button>
+        <button type="button" class="col m-1 btn btn-warning">Warning</button>
+        <button type="button" class="col m-1 btn btn-danger">Danger</button>
+        <button type="button" class="col m-1 btn btn-dark">Dark</button>
+        <button type="button" class="col m-1 btn btn-light">Light</button>
+        <button type="button" class="col m-1 btn btn-link">Link</button>
+       </div>
+       <ul class="pagination">
+        <li class="page-item"><a class="page-link" href="#">Anterior</a></li>
+        <li class="page-item"><a class="page-link" href="contacto.html">1</a></li>
+        <li class="page-item"><a class="page-link" href="acercade.html">2</a></li>
+        <li class="page-item"><a class="page-link" href="contacto.html">3</a></li>
+        <li class="page-item"><a class="page-link" href="acercade.html">siguente</a></li>
+      </ul>
+    </div>
+    
+</body>
+</html>
